@@ -1,14 +1,13 @@
 <?php
 class htmlTable {
 	
-	public function _construct($TableData);
-	{
+	public function _construct($TableData){
 	
 	$keys = array_keys($TableData);
 	
-	$Table = '<table border='2' style='background=color:blue;1px solid black;><tr>';
+	$Table = '<table border="2" style="background=color:blue;1px solid black;><tr>";
 	
-	$Table .=  '
+	$Table .=  "
 	<tr>
 	<th>Make</th>
 	<th>Model</th>
@@ -42,6 +41,6 @@ class htmlTable {
 
 		
 	}
-	echo $Table
-}
+	echo $Table;
+	}
 }
