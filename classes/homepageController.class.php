@@ -9,7 +9,7 @@
 	
 	
 	
-	print_r($_SESSION);
+	
       }
       public function post() {}
       public function put() {}
